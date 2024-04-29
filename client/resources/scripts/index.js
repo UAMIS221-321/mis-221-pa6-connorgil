@@ -20,7 +20,7 @@ function handleEditClick(){
     document.getElementById("saveButton").innerHTML = buttonHtml;
     document.getElementById("saveButton").style.display = "inline-block";
 }
-function handlenewClick(){
+function handleNewClick(){
     makeEditable();
     hideButtons();
     blankFields();
